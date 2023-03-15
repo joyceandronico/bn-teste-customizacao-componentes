@@ -1,0 +1,39 @@
+ div.beon-showcase__head-inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100% !important;
+    align-items: baseline;
+ }
+
+.beon-showcase__title, .beon-showcase__viewmore {
+    color: #5B2C86 !important;
+    font-weight: 700;
+}
+
+.beon-showcase__viewmore{
+    visibility: hidden ;
+}
+
+.beon-showcase {
+    font-size: 16px !important;
+}
+
+.beon-showcase__viewmore::after{
+    visibility: visible;
+    content: 'ver mais';
+    text-transform: uppercase;
+    font-size: 1.5em !important;
+}
+
+.beon-showcase__head::before{
+    top: 100% !important;
+    border-top: 1px solid #5B2C86 !important;
+}
+
+.beon-slider__slide {
+    border: 1px solid #5B2C86;
+    margin: 56px 17px;
+    border-radius: 10px ;
+}
+
+
